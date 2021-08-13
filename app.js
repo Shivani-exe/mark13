@@ -136,6 +136,7 @@ function covertDateToString(date)
 var bdayInput= document.querySelector('#bday-input');
 var showBtn= document.querySelector('#show-btn');
 var output= document.querySelector('#output');
+var outputDays=document.querySelector('#output-days');
 
 function onClickHandler()
 {
@@ -157,9 +158,10 @@ function onClickHandler()
         else{
                 var [ctr,nextDate]=getNextPalindromeDate(date);
                 output.innerText="The next palindrome date is " + nextDate.day +
-                "-" + nextDate.month + "-" + nextDate.year + ", You missed it by " +
-                ctr +" days!😣";
-        }
+                "-" + nextDate.month + "-" + nextDate.year+"." ;
+                outputDays.innerText="You missed it by " +
+                ctr +" days!😭";
+            }
 
     }
 

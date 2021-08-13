@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Kanit:ital,wght@1,300&display=swap');
+.container{
+    background-image: url("/images/bday.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-color:pink;
+    background-size: 40%;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Courgette', cursive;
+    
+}
+.container-heading{
+    color:salmon;
+    margin-left:30rem;
+    margin-bottom: 5rem;
+}
+#bday-input{
+    margin-left:35rem;
+    border-radius: 0.5rem;
+    border-style: solid;
+    border-width: 0.2rem;
+    border-color: salmon;
+    outline: none;
+    background-color:pink;
+}
+#show-btn{
+    margin-left:38rem;
+    margin-top: 2rem;
+    border-radius: 0.5rem;
+    border-style: solid;
+    border-width: 0.2rem;
+    border-color: salmon;
+    outline: none;
+    background-color:pink;
+    font-size: 1rem;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Courgette', cursive;
+    cursor: pointer;
+
+}
+#output{
+    color:gold;
+    margin-left:30rem;
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+    font-size: 1.3rem;
+    text-align: justify;
+}
+#output-days{
+    color:gold;
+    margin-left:30rem;
+    margin-top: 0rem;
+    padding-top: 1rem;
+    margin-bottom: 5rem;
+    font-size: 1.3rem;
+    text-align: justify;
+}
